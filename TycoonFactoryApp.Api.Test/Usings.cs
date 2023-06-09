@@ -1,0 +1,11 @@
+global using Xunit;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.Extensions.Logging;
+global using Shouldly;
+global using System.Net;
+global using TycoonFactoryApp.Api.Controllers;
+global using TycoonFactoryApp.Core.Models;
+global using TycoonFactoryApp.Core.Processors;
+global using Moq;
+global using Microsoft.AspNetCore.Http;
+global using AutoFixture;
