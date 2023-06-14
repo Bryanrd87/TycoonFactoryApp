@@ -50,6 +50,3 @@ The application uses Entity Framework as the ORM for persistence.
 ## Future Improvements
 Implement a better user interface for the application.
 Implement a full persistence layer to make the application more robust.
-
-## Acknowledgments
-Thanks for the opportunity to work on this project.
