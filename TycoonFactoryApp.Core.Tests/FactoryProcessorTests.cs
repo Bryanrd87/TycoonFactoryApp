@@ -31,11 +31,7 @@
                     'A',
                 }
             };
-
-            var mapperConfig = new MapperConfiguration(c =>
-            {
-                c.AddProfile<ActivityProfile>();
-            });
+            
             _activityServiceMock = new Mock<IActivityService>();
             _androidWorkerServiceMock = new Mock<IAndroidWorkerService>();
             _processor = new FactoryProcessor(_activityServiceMock.Object, _androidWorkerServiceMock.Object);
